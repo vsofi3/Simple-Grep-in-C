@@ -1,1 +1,4 @@
 # Simple-Grep-in-C
+
+
+Write a C source file,sgrep.c, and an appropriate Makefile that builds an executable file named sgrep, that conforms to the following synopsis:./sgrep [OPTION] ... STRING [FILE] ... sgrepsearches the named input FILEs (or standard input if no files are named) for lines containing the given STRING. By default, sgrepprints the matching lines on standard output.sgrepis to support the following options:-iIgnore case distinctions in both the STRINGand the lines in the input files.-v Invert the sense of matching to select non-matching lines.-c Suppress normal output; instead, print a count of matching lines for each input file. If –vis also specified, count non-matching lines.If multiple filenames have been specified in the command line, each line of output from sgrepshould be prefixed with “<name of file>:” where <name of file>is replaced by the filename associated with the output.
